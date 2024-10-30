@@ -1,8 +1,8 @@
-# Data Structures Challenge 2 Solutions 
+# Data Structures Challenge 4 with Solutions 
 
 ## Question 1
 **What is the hash function used in the division method:**  
-A)h(k) = k/m
+A) h(k) = k/m
 B) h(k) = k mod m
 C) h(k) = m/k
 D) h(k) = m mod k
