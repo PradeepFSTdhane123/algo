@@ -1,5 +1,5 @@
 ---
-id: Contains-Duplicate-leetcode-217
+id: contains-duplicate-leetcode-217
 title: Contains Duplicate
 sidebar_label: Leetcode 217
 tags: [Leetcode, Array, DSA, Contains duplicate]
@@ -74,12 +74,14 @@ int main() {
 - A set data structure inherently stores unique values. In C++, we use an unordered_set for this purpose, which allows us to:
 Insert elements in O(1) average time.
 Check if an element exists (lookup) in O(1) average time.
-**2. Iterating Through the Array:**
+
+**Iterating Through the Array:**
 - The algorithm iterates through each element of the array.
 For each element:
 It checks if the element already exists in the set (using the find() method). If it does, this means the element is a duplicate, so we return true.
 If the element is not found in the set, it is added to the set to track that we’ve seen it before.
-**3. Returning the Result:**
+
+**Returning the Result:**
 - If the loop completes without finding any duplicates, the function returns false, meaning all elements in the array are distinct.
 Code Flow:
 Initialization: We declare an unordered_set<int> uniques to store the unique numbers encountered during the iteration.
