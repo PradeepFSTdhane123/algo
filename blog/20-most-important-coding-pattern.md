@@ -27,7 +27,7 @@ Let's go through each pattern one by one.
 - **Pros**:
   - Efficiency: Achieves O(n) time complexity for problems that might otherwise require O(n^2).
   - Simplicity: Once mastered, it provides a straightforward and elegant solution.
-- **Cons**:
+- **Cons:**
   - Applicability: Mainly beneficial for problems involving sequences or intervals.
   - Initial Complexity: It might take some time to get the hang of this pattern and understand where and how to move the pointers.
 
